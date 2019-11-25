@@ -14,8 +14,28 @@ $(document).ready(function() {
         var curLink = $(this);
         var curBlock = curLink.parent();
         curLink.hide();
-        curBlock.find('.realme5-video-play').show().html('<video src="' + curLink.attr('data-video') + '" autoplay="" loop="" controls=""></video>');
+        curBlock.find('.realme5-video-play').show();
+        curBlock.data('player').playVideo();
         e.preventDefault();
     });
 
 });
+
+var tag = document.createElement('script');
+
+tag.src = 'https://www.youtube.com/iframe_api';
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubeIframeAPIReady() {
+    $('.realme5-video').each(function(e) {
+        var curBlock = $(this);
+        curBlock.data('player', new YT.Player(curBlock.find('.realme5-video-player').attr('id'), {
+                height: '360',
+                width: '640',
+                videoId: curBlock.find('.dialog-video-play').attr('data-video')
+            })
+        );
+    });
+}
