@@ -1,0 +1,119 @@
+.realme5-wrapper {background:#fff; width:100%; overflow:hidden; position:relative}
+.realme5-header {max-width:750px; margin:0 auto; padding:70px 0 0 0}
+.realme5-header-inner {margin:0 -14px}
+.realme5-header-inner::after {content:""; display:block; clear:both}
+.realme5-header-item {float:left; width:33.33%; padding:0 14px; text-align:center; box-sizing:border-box}
+.realme5-header-item a {display:inline-block; vertical-align:top; line-height:0; transition:all 0.2s; max-width:100%}
+.realme5-header-item a:hover {opacity:0.8}
+.realme5-header-item-preview img {max-width:100%}
+.realme5-header-item-title {padding:30px 0 0 0}
+.realme5-header-item-title-1 {margin:0 auto; width:122px; height:24px; background:url(../images/header-1-title.svg) no-repeat; background-size:100%}
+.realme5-header-item-title-2 {margin:0 auto; width:153px; height:24px; background:url(../images/header-2-title.svg) no-repeat; background-size:100%}
+.realme5-header-item-title-3 {margin:0 auto; width:147px; height:26px; background:url(../images/header-3-title.svg) no-repeat; background-size:100%}
+
+@media screen and (max-width:749px) {
+    .realme5-header {padding:40px 13px 0 13px}
+    .realme5-header-item-title {padding:10px 0 0 0}
+    .realme5-header-item-title-1 {width:61px; height:12px; margin-top:3px}
+    .realme5-header-item-title-2 {width:76px; height:12px}
+    .realme5-header-item-title-3 {width:73px; height:13px}
+}
+
+.realme5-header-bf {max-width:748px; margin:20px auto 0 auto; line-height:0}
+.realme5-header-bf a {display:block; transition:all 0.2s}
+.realme5-header-bf a:hover {opacity:0.8}
+.realme5-header-bf img {display:block; width:100%}
+
+.realme5-model {margin:20px auto 0 auto; max-width:1600px}
+.realme5-model-container {max-width:750px; margin:0 auto}
+.realme5-model-container::after {content:""; display:block; clear:both}
+.realme5-model-content {float:right; width:370px; margin:0 78px 0 0}
+.realme5-model-title {margin:0 auto}
+.realme5-model-prefs {color:#fff; font-size:0; line-height:0; letter-spacing:-1px}
+.realme5-model-pref {display:inline-block; vertical-align:top; padding:42px 0 6px 0}
+.realme5-model-pref-title {font-size:16px; line-height:19px; letter-spacing:0; font-weight:600}
+.realme5-model-pref-text {font-size:10px; line-height:12px; letter-spacing:0; font-weight:300; padding:2px 0 0 0}
+.realme5-model-priceold {text-align:center; font-weight:600; font-size:20px; line-height:24px; text-decoration:line-through; letter-spacing:-2px; padding:21px 0 0 0; color:#fff}
+.realme5-model-price {text-align:center; font-weight:600; font-size:28px; line-height:30px; letter-spacing:-2.8px; color:#f0821d; margin:-5px 0 0 0}
+.realme5-model-buy {text-align:center; padding:3px 0 0 0}
+.realme5-model-buy a {display:inline-block; vertical-align:top; width:122px; height:46px; box-sizing:border-box; border:2px solid #f0821d; font-weight:600; font-size:20px; line-height:42px; color:#f0821d; text-decoration:none; transition:all 0.2s}
+.realme5-model-buy a:hover {color:#fff; background:#f0821d}
+
+@media screen and (max-width:749px) {
+    .realme5-model-content {float:none; width:auto; margin:0 40px; text-align:center}
+    .realme5-model-pref {display:block}
+    .realme5-model-buy {padding:3px 0 40px 0}
+    .realme5-model-pref {padding:25px 0 0 0}
+    .realme5-model-pref-title {font-size:5vw; line-height:6vw}
+    .realme5-model-pref-text {font-size:4vw; line-height:5vw}
+    .realme5-model-priceold {font-size:6vw; line-height:10vw}
+    .realme5-model-price {font-size:10vw; line-height:12vw}
+    .realme5-model-buy a {font-size:6vw; padding:0 20px; height:auto; width:auto; line-height:auto}
+}
+
+.realme5-model-xt .realme5-model-inner {height:519px; background:#fff url(../images/model-xt.jpg) no-repeat center}
+.realme5-model-xt .realme5-model-content {padding:72px 0 0 0}
+.realme5-model-xt .realme5-model-title {width:153px; height:25px; background:url(../images/model-xt-title.svg) no-repeat}
+.realme5-model-xt .realme5-model-prefs {color:#000; width:448px}
+.realme5-model-xt .realme5-model-pref:nth-child(odd) {width:202px}
+.realme5-model-xt .realme5-model-pref-text {color:#1240da}
+.realme5-model-xt .realme5-model-pref:last-child .realme5-model-pref-title {letter-spacing:-1.6px}
+.realme5-model-xt .realme5-model-priceold {color:#000}
+
+@media screen and (max-width:749px) {
+    .realme5-model-xt .realme5-model-content {padding:40px 0 0 0}
+    .realme5-model-xt .realme5-model-inner {height:auto; background-size:auto 100%}
+    .realme5-model-xt .realme5-model-prefs {width:auto}
+    .realme5-model-xt .realme5-model-pref:nth-child(odd) {width:auto}
+    .realme5-model-xt .realme5-model-pref:last-child .realme5-model-pref-title {letter-spacing:0}
+}
+
+.realme5-model-5 .realme5-model-inner {height:541px; background:#fff url(../images/model-5.jpg) no-repeat center}
+.realme5-model-5 .realme5-model-content {padding:65px 0 0 0}
+.realme5-model-5 .realme5-model-title {width:125px; height:25px; background:url(../images/model-5-title.png) no-repeat}
+.realme5-model-5 .realme5-model-prefs {width:495px; margin-left:-47px}
+.realme5-model-5 .realme5-model-pref:nth-child(odd) {width:224px}
+.realme5-model-5 .realme5-model-pref:nth-child(4) .realme5-model-pref-title {margin-top:-19px}
+.realme5-model-5 .realme5-model-pref:last-child .realme5-model-pref-title {letter-spacing:-1.6px}
+
+@media screen and (max-width:749px) {
+    .realme5-model-5 .realme5-model-content {padding:40px 0 0 0}
+    .realme5-model-5 .realme5-model-inner {height:auto; background-size:auto 100%}
+    .realme5-model-5 .realme5-model-prefs {width:auto; margin-left:0}
+    .realme5-model-5 .realme5-model-pref:nth-child(odd) {width:auto}
+    .realme5-model-5 .realme5-model-pref:nth-child(4) .realme5-model-pref-title {margin-top:0}
+    .realme5-model-5 .realme5-model-pref:last-child .realme5-model-pref-title {letter-spacing:0}
+}
+
+.realme5-model-5pro .realme5-model-inner {height:542px; background:#fff url(../images/model-5pro.jpg) no-repeat center}
+.realme5-model-5pro .realme5-model-content {padding:78px 0 0 0}
+.realme5-model-5pro .realme5-model-title {width:158px; height:25px; background:url(../images/model-5pro-title.png) no-repeat}
+.realme5-model-5pro .realme5-model-prefs {width:470px; margin-left:-22px}
+.realme5-model-5pro .realme5-model-pref:nth-child(odd) {width:261px}
+.realme5-model-5pro .realme5-model-pref:last-child .realme5-model-pref-title {letter-spacing:-1.6px}
+
+@media screen and (max-width:749px) {
+    .realme5-model-5pro .realme5-model-content {padding:40px 0 0 0}
+    .realme5-model-5pro .realme5-model-inner {height:auto; background-size:auto 100%}
+    .realme5-model-5pro .realme5-model-prefs {width:auto; margin-left:0}
+    .realme5-model-5pro .realme5-model-pref:nth-child(odd) {width:auto}
+    .realme5-model-5pro .realme5-model-pref:last-child .realme5-model-pref-title {letter-spacing:0}
+}
+
+.realme5-video {margin:20px 0 0 0; position:relative; background:no-repeat; background-size:cover; line-height:0}
+.realme5-video-play {position:absolute; left:0; top:0; right:0; bottom:0; display:none}
+.realme5-video-play video {position:absolute; width:100%; height:100%}
+.realme5-video a {position:absolute; left:0; top:0; right:0; bottom:0; display:block; background:url(../images/video.svg) no-repeat center; transition:all 0.2s}
+.realme5-video a:hover {opacity:0.8}
+.realme5-video-1 {background-image:url(../images/video-1.jpg); height:450px}
+.realme5-video-2 {background-image:url(../images/video-2.jpg); height:450px}
+.realme5-video-3 {background-image:url(../images/video-3.jpg); height:469px}
+
+@media screen and (max-width:749px) {
+    .realme5-video a {background-size:40px 40px}
+    .realme5-video-1 {height:auto; min-height:90px}
+    .realme5-video-2 {height:auto; min-height:90px}
+    .realme5-video-3 {height:auto; min-height:90px}
+    .realme5-video-play {position:relative; left:auto; top:auto; right:auto; bottom:auto; display:block}
+    .realme5-video-play video {position:relative; height:auto; display:block}
+}
